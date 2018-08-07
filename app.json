@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/search/search",
+    "pages/movie-grid/movie-grid",
+    "pages/movie-rating/movie-rating",
+    "pages/movie-more/movie-more",
+    "pages/movie-list/movie-list",
+    "pages/movie-detail/movie-detail",
+    "pages/movie-detail/rating/rating"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00b600",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle": "#fff"
+  }
+}

@@ -1,0 +1,29 @@
+/* pages/movie-grid/movie-grid.wxss */
+@import "/pages/movie-rating/movie-rating";
+.movie-wrapper {
+  display: inline-block;
+  margin: 0 10rpx;
+}
+.movie-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movie-content .poster {
+  width: 200rpx;
+  height: 280rpx;
+}
+.movie-content .name {
+   margin: 8rpx 0; 
+  width: 200rpx;
+  color: #4a4a4a;
+  font-size: 28rpx;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: hidden;
+  overflow: hidden;
+}
+.wish-count {
+  color: #e9e9e9;
+  font-size: 24rpx;
+}

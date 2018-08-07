@@ -1,0 +1,51 @@
+/* pages/search/search.wxss */
+.search-input {
+  flex: 1; /* 指除了搜做icon和取消，其余都是搜索框的 */
+  font-size: 28rpx;
+  color: #4a4a4a;
+}
+.search-cancel{
+  display: inline-block;
+  width: 60rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 28rpx;
+  color: #4a4a4a;
+}
+.search-list {
+  background: #fff;
+}
+.movie-wrapper {
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  border-bottom: 1rpx solid #e9e9e9;
+}
+.movie-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15rpx 0;
+}
+.movie-content .poster {
+  width: 80rpx;
+  height: 110rpx;
+}
+.total {
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.total .title {
+  font-size: 28rpx;
+  color: #4a4a4a;
+  font-weight:600;
+  width: 100%;
+}
+.total .desc {
+  margin-top: 10rpx;
+  color: #aaa;
+  font-size: 26rpx;
+  width: 100%;
+}
